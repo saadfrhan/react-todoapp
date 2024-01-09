@@ -46,7 +46,7 @@ const NewTodo = () => {
           />
 
           {errors.title && touched.title && (
-            <p className='text-destructive-foreground text-[14px] mb-3'>
+            <p className='text-destructive text-[14px] mb-3'>
               This field is required
             </p>
           )}
@@ -54,7 +54,7 @@ const NewTodo = () => {
           <div className='flex gap-3 mt-3'>
             <Button
               onClick={handleReset}
-              disabled={values.title && true}
+              disabled={values.title && values.title.length > 0 ? true : false}
               value="Reset"
 							type="button"
             >
