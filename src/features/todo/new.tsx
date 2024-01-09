@@ -1,5 +1,3 @@
-
-
 import { Formik, Form } from 'formik'
 import * as Yup from 'yup'
 
@@ -14,12 +12,12 @@ const NewTodo = () => {
   return (
     <Formik
       initialValues={{ title: '' }}
-      onSubmit={(values) => {
+      onSubmit={(values, { resetForm }) => {
         dispatch(
           add({
             title: values.title,
           })
-        )
+        resetForm();
       }}
       validationSchema={Yup.object().shape({
         title: Yup.string().required(),
@@ -27,8 +25,6 @@ const NewTodo = () => {
     >
       {({
         values,
-        dirty,
-        isSubmitting,
         handleChange,
         handleBlur,
         handleReset,
