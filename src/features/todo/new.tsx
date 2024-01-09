@@ -54,7 +54,7 @@ const NewTodo = () => {
           <div className='flex gap-3 mt-3'>
             <Button
               onClick={handleReset}
-              disabled={!dirty || isSubmitting}
+              disabled={values.title && true}
               value="Reset"
 							type="button"
             >
