@@ -17,6 +17,7 @@ const NewTodo = () => {
           add({
             title: values.title,
           })
+				)
         resetForm();
       }}
       validationSchema={Yup.object().shape({
@@ -42,7 +43,7 @@ const NewTodo = () => {
           />
 
           {errors.title && touched.title && (
-            <p className='text-destructive text-[14px] mb-3'>
+            <p className='text-destructive text-[14px] pt-1'>
               This field is required
             </p>
           )}
@@ -50,7 +51,7 @@ const NewTodo = () => {
           <div className='flex gap-3 mt-3'>
             <Button
               onClick={handleReset}
-              disabled={values.title && values.title.length > 0 ? true : false}
+            disabled={values.title.length > 0 ? false : true}
               value="Reset"
 							type="button"
             >
