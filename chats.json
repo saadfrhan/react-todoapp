@@ -1,0 +1,25 @@
+{
+  "Thu, 11 Jan 2024 20:18:33 GMT": {
+    "id": "Thu, 11 Jan 2024 20:18:33 GMT",
+    "chatModel": "anthropic/claude-2.0",
+    "lastInteractionTimestamp": "Thu, 11 Jan 2024 20:18:33 GMT",
+    "interactions": [
+      {
+        "humanMessage": {
+          "speaker": "human",
+          "text": "hi",
+          "displayText": "hi"
+        },
+        "assistantMessage": {
+          "speaker": "assistant",
+          "text": " Hello!",
+          "displayText": " Hello!"
+        },
+        "usedContextFiles": [],
+        "fullContext": [],
+        "usedPreciseContext": [],
+        "timestamp": "2024-01-11T20:18:44.483Z"
+      }
+    ]
+  }
+}
