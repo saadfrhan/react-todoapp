@@ -1,37 +1,44 @@
 # To-do App
 ## About
 This to-do app allows you to add list items one by one.
-[need screenshot of default state]
-[need screenshot of added list items]
+
+<img src="./previews/default-state.png" />
+
+<img src="./previews/added-list-items.png" />
 
 ## Research tasks
-Please refer to the the instructions you received via email to access all steps in their entirety.
+Please refer to the instructions you received via email to access all steps in their entirety.
 Today, you'll be asked to do the following:
 
-### Add a new tagging feature to the to do list app
+### Add a new tagging feature to the to-do list app
 Add a tagging feature to each to-do list item:
 - You should be able to add more than one tag to each item. 
 - You should be able to delete tags from list items. 
-- You should be able to edit tags after they’ve been made. 
-[need short gif or video of each interaction]
+- You should be able to edit tags after they’ve been made.
+
+<img src="./previews/add-tag-preview.gif" />
+
+<img src="./previews/delete-tag-preview.gif" />
+
+<img src="./previews/edit-tag-preview.gif" />
 
 ### Add test coverage
 Add test coverage for 95%+ of the repo
 
 ### Complete a post-test survey
-Please refer to the the instructions you received via email to access your post-test survey
+Please refer to the instructions you received via email to access your post-test survey
 
 
 ## How to run this project
 ```
-npm install
-npm rundev
+pnpm install
+pnpm dev
 ```
 Then visit http://localhost:3000.
 
 ## How to test this project
 ```
-npm test
+pnpm test
 ```
 
 ## Further information
@@ -46,7 +53,7 @@ Currently, two official plugins are available:
 
 ### Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
 - Configure the top-level `parserOptions` property like this:
 
