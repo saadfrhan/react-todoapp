@@ -5,7 +5,7 @@ This to-do app allows you to add list items one by one.
 [need screenshot of added list items]
 
 ## Research tasks
-**Please refer to the the instructions you received via email to access all steps in their entirety**
+Please refer to the the instructions you received via email to access all steps in their entirety.
 Today, you'll be asked to do the following:
 
 ### Add a new tagging feature to the to do list app
@@ -19,7 +19,7 @@ Add a tagging feature to each to-do list item:
 Add test coverage for 95%+ of the repo
 
 ### Complete a post-test survey
-**Please refer to the the instructions you received via email to access your post-test survey**
+Please refer to the the instructions you received via email to access your post-test survey
 
 
 ## How to run this project
