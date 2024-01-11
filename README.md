@@ -34,7 +34,7 @@ Please refer to the instructions you received via email to access your post-test
 pnpm install
 pnpm dev
 ```
-Then visit http://localhost:3000.
+Then visit http://localhost:5173.
 
 ## How to test this project
 ```
