@@ -1,5 +1,5 @@
 import { screen } from '@testing-library/react'
-import { describe, it, expect } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import App from './App'
 import { renderWithProviders } from '@/lib/test-utils'
 import NewTodo from '@/features/todo/new'
@@ -13,7 +13,8 @@ describe('App', () => {
   })
 
   it('renders NewTodo component', () => {
-    renderWithProviders(<NewTodo />)
+		const handleSubmit = vi.fn()
+    renderWithProviders(<NewTodo handleSubmit={handleSubmit} />)
     expect(screen.getByTestId('new-todo')).toBeInTheDocument()
   })
 
